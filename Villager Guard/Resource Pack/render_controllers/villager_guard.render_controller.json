@@ -1,0 +1,12 @@
+{
+    "format_version" : "1.8.0",
+    "render_controllers" : {
+        "controller.render.villager_guard" : {
+            "geometry" : "geometry.villager.guard",
+            "materials" : [{
+                "*" : "entity"
+            }],
+            "textures" : ["textures/entity/villager_guard"]
+        }
+    }
+}

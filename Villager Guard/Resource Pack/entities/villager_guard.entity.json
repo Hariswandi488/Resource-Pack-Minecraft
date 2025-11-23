@@ -1,17 +1,25 @@
 {
-    "format_version" : "1.21.0",
+    "format_version" : "1.12.0",
     "minecraft:client_entity" : {
         "description" : {
-            "identifier" : "custom:villager_guard",
+            "identifier" : "geometry.villager_guard",
             "materials" : { "default" : "entity" },
             "textures" : { "default" : "textures/entity/villager_guard" },
             "geometry" : { "default" : "geometry.villager_guard" },
+            "render_controllers" : [
+                "controller.render.villager_guard"
+            ],
             "animations" : {
-                "idle" : "animations/villager_guard_idle",
-                "walk" : "animations/villager_guard_walk",
-                "look" : "animations/villager_guard_look",
-                "attack" : "animations/villager_guard_attack"
+                "idle" : "animations.villager_guard.idle",
+                "walk" : "animations.villager_guard.walk",
+                "look" : "animations.villager_guard.look",
+                "attack" : "animations.villager_guard.attack"
             },
+            "animtion_controllers" : [
+                {
+                    "default" : "controller.animation.villager_guard"
+                }
+            ],
             "scripts" : {
                 "animate" : [
                     "idle",

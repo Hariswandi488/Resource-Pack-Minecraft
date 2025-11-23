@@ -1,0 +1,38 @@
+{
+    "format_version" : "1.10.0",
+    "animtion_controllers" : {
+        "controller.animation.villager_guard" : {
+            "states" : {
+                "default" : {
+                    "animations" :[ "idle" ],
+                    "transitions" : [
+                        { "walking" : "query.is_moving" },
+                        { "attacking" : "query.is_attacking" },
+                        { "look" : "query.random(0,100) < 2" }
+                    ]
+                },
+                "look" : {
+                    "animations" : [ "look" ],
+                    "transitions" : [
+                        { "walking" : "query.is_moving" },
+                        { "attacking" : "query.is_attacking" },
+                        { "default" : "query.animtion_finished"}
+                    ]
+                },
+                "walking" : {
+                    "animations" : [ "walk" ],
+                    "transitions" : [
+                        { "default" : "!query.is_moving" },
+                        { "attacking" : "query.is_attacking" }
+                    ]
+                },
+                "attacking" : {
+                    "animations" : [ "attack" ],
+                    "transitions" : [
+                        { "default" : "query.animtion_finished" }
+                    ]
+                }
+            }
+        }
+    }
+}
