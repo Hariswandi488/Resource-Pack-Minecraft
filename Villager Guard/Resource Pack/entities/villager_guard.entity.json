@@ -1,0 +1,25 @@
+{
+    "format_version" : "1.21.0",
+    "minecraft:client_entity" : {
+        "description" : {
+            "identifier" : "custom:villager_guard",
+            "materials" : { "default" : "entity" },
+            "textures" : { "default" : "textures/entity/villager_guard" },
+            "geometry" : { "default" : "geometry.villager_guard" },
+            "animations" : {
+                "idle" : "animations/villager_guard_idle",
+                "walk" : "animations/villager_guard_walk",
+                "look" : "animations/villager_guard_look",
+                "attack" : "animations/villager_guard_attack"
+            },
+            "scripts" : {
+                "animate" : [
+                    "idle",
+                    "walk",
+                    "look",
+                    "attack"
+                ]
+            }
+        }
+    }
+}
