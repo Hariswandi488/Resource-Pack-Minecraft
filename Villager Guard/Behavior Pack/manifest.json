@@ -4,20 +4,20 @@
         "description" : "Villager Guard BP By Hariswandi Project #1",
         "name" : "Villager Guard BP",
         "uuid" : "70284ae7-a9de-4bcd-a7c7-426de6e3ff68",
-        "version" : [0, 0, 1],
+        "version" : [0, 0, 2],
         "min_engine_version" : [1, 21, 0]
     },
     "modules" : [
         {
             "type": "data",
             "uuid" : "252ddd38-063d-44c8-9b5d-1c511cc2e149",
-            "version" : [0, 0, 1]
+            "version" : [0, 0, 2]
         }
     ],
     "dependencies" : [
         {
             "uuid" : "80724e07-1667-477d-b87e-b2a35341128d",
-            "version" : [0, 0, 1]
+            "version" : [0, 0, 2]
         }
     ]
 }

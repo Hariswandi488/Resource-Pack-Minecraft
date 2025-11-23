@@ -4,14 +4,14 @@
         "description" : "Villager Guard RP By Hariswandi Project #1",
         "name" : "NPC Villager Guard RP",
         "uuid" : "80724e07-1667-477d-b87e-b2a35341128d",
-        "version" : [0, 0, 1],
+        "version" : [0, 0, 2],
         "min_engine_version" : [1, 21, 0]
     },
     "modules" : [
         {
             "type" : "resources",
             "uuid": "5be0f4dc-bc70-42a1-b6d2-94443d5e2184",
-            "version" : [0, 0, 1]
+            "version" : [0, 0, 2]
         }
     ]
 }

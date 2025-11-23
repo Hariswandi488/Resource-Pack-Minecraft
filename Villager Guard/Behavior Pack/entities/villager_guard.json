@@ -2,7 +2,7 @@
     "format_version" : "1.21.0",
     "minecraft:entity" : {
         "description" : {
-            "identifier" : "geometry.villager_guard",
+            "identifier" : "custom:villager_guard",
             "is_spawnable" : true,
             "is_summonable" : true,
             "is_experimental" : false
